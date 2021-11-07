@@ -16,7 +16,7 @@ function Links() {
         <a
           className="links-a"
           target="_blank"
-          href="https://drive.google.com/file/d/1FLKez3bLARCeo38sHEd2PLC6aS-V3RsU/view"
+          href="https://drive.google.com/file/d/1FLKez3bLARCeo38sHEd2PLC6aS-V3RsU/view?usp=sharing"
         >
           Resume
         </a>

@@ -99,6 +99,7 @@ html {
 }
 
 .typewriter {
+  animation: transitionIn 3s;
   text-align: center;
   margin: 0 auto;
   padding-top: 5rem;
@@ -118,6 +119,10 @@ html {
   text-decoration: none;
   border: 2px solid #dbdbdb;
   padding: 0.6rem;
+}
+
+.dev-span {
+  color: #0a3fa3;
 }
 
 .links {
