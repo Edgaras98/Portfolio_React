@@ -8,3 +8,4 @@ export { default as Projects } from "./Projects";
 export { default as Project } from "./Project";
 export { default as Contacts } from "./Contacts";
 export { default as Copyrights } from "./Copyrights";
+export { default as ToTop } from "./ToTop";

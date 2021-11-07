@@ -47,7 +47,7 @@ function Resume() {
           </div>
           <h3>Database management systems</h3>
           <div className="software-div">
-            <Skill icon={<i class="fas fa-database"></i>} name="MySql" />
+            <Skill icon={<i class="fas fa-database"></i>} name="Sql" />
             <Skill icon={<i class="fas fa-database"></i>} name="NoSql" />
           </div>
           <h3>Version control system</h3>

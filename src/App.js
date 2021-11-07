@@ -6,11 +6,13 @@ import { Resume } from "./components/exports";
 import { Projects } from "./components/exports";
 import { Contacts } from "./components/exports";
 import { Copyrights } from "./components/exports";
+import { ToTop } from "./components/exports";
 
 function App() {
   return (
     <>
       <Navigation />
+      <ToTop />
       <GreetSection />
       <Links />
       <AboutMe />

@@ -29,6 +29,24 @@ html {
   }
 }
 
+/* To top button */
+.to-top {
+  animation: transitionIn 3s;
+  border: 2px solid #0a3fa3;
+  color: #0a3fa3;
+  text-decoration: none;
+  font-size: 32px;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
 /* NAVIGATION */
 
 /* Desktop width */
@@ -229,7 +247,7 @@ html {
 /* RESUME SECTION */
 .resume-section {
   padding-top: 5rem;
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
   color: #dbdbdb;
 }
@@ -245,6 +263,7 @@ html {
 }
 
 .resume-div {
+  margin: 0 auto;
   padding-bottom: 1rem;
   padding-left: 1rem;
   border-left: 2px solid #0a3fa3;
@@ -271,9 +290,8 @@ li {
   margin-right: 2rem;
   border: 1px solid white;
   border-radius: 1rem;
-  margin-bottom: 1.5rem;
   text-align: center;
-  width: 25%;
+  width: 20%;
 }
 .skill-div:hover {
   transition: 700ms;
@@ -287,15 +305,13 @@ li {
 .software-1-div {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 70%;
   box-sizing: border-box;
-  padding: 1rem;
   flex-wrap: wrap;
 }
 
 .software-div {
-  width: 85%;
-  padding: 1rem;
+  width: 70%;
   display: flex;
   justify-content: flex-start;
   box-sizing: border-box;
@@ -303,13 +319,15 @@ li {
 }
 
 .programing-div {
-  width: 80%;
-  padding: 1rem;
+  width: 70%;
   display: flex;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
-
+.education {
+  width: 85%;
+  margin: 0 auto;
+}
 .education img:hover {
   opacity: 0.8;
   cursor: pointer;
@@ -373,7 +391,7 @@ li {
 
 /* Projects section */
 .projects-wrap {
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -416,7 +434,7 @@ li {
   padding-bottom: 3rem;
   display: flex;
   justify-content: space-evenly;
-  width: 65%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -441,6 +459,9 @@ li {
   color: #dbdbdb;
 }
 @media screen and (max-width: 700px) {
+  .to-top {
+    display: none;
+  }
   .links {
     flex-wrap: wrap;
     background-color: #1f2833;
@@ -523,7 +544,6 @@ li {
   }
   .about-me-div {
     padding-bottom: 1rem;
-    padding-left: 1rem;
     border-left: 2px solid #0a3fa3;
     width: 100%;
   }
