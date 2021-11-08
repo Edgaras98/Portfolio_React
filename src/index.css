@@ -402,15 +402,21 @@ li {
 .project-div {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #dbdbdb;
+
   color: white;
   display: flex;
   width: 100%;
 }
+
+.project-img-div {
+  width: 480px;
+  height: 320px;
+  margin-right: 1rem;
+}
 .project-div img {
   margin-top: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 480px;
+  height: 320px;
 }
 
 .sites-links {
@@ -482,9 +488,7 @@ li {
     width: 100%;
     margin: 0 auto;
   }
-  .project-div img {
-    width: 100%;
-  }
+
   .project-div {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -493,6 +497,17 @@ li {
     display: block;
     width: 100%;
   }
+  .project-img-div {
+    width: 480px;
+    height: 320px;
+    margin-right: 1rem;
+  }
+  .project-div img {
+    margin-top: 2rem;
+    width: 280px;
+    height: 240px;
+  }
+
   #agile-certificate {
     margin-top: 4rem;
     width: 100%;
