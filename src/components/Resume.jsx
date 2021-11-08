@@ -17,7 +17,7 @@ function Resume() {
       <section className="resume-section" id="Resume">
         <div className="resume-div">
           <h2>.Resume(</h2>
-          <h3>Software skills</h3>
+          <h3>UI skills</h3>
           <div className="software-div">
             <Skill icon={<i class="fab fa-html5"></i>} name="HTML" />
             <Skill icon={<i class="fab fa-css3-alt"></i>} name="CSS" />
@@ -47,8 +47,8 @@ function Resume() {
           </div>
           <h3>Database management systems</h3>
           <div className="software-div">
-            <Skill icon={<i class="fas fa-database"></i>} name="Sql" />
-            <Skill icon={<i class="fas fa-database"></i>} name="NoSql" />
+            <Skill icon={<i class="fas fa-database"></i>} name="SQL" />
+            <Skill icon={<i class="fas fa-database"></i>} name="NoSQL" />
           </div>
           <h3>Version control system</h3>
           <div className="software-1-div">

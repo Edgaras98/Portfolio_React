@@ -4,10 +4,10 @@ function Project({ name, img, about, technologies, gthhref, livelink }) {
   return (
     <div className="project-div">
       <div className="project-img-div">
-        <img src={img} alt="project" />
+      <img src={img} />
       </div>
       <div className="project-info-div">
-        <h2>{name}</h2>
+        <h3>{name}</h3>
         <p>{about}</p>
         <p>
           <strong>Technologies used: </strong>
